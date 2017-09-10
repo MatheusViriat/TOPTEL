@@ -12,6 +12,11 @@ body {
     height: 100%;
 }
 
+.logo_top{
+    text-align: center;
+    background: rgb(0, 0, 130);
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -27,6 +32,56 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    font-style: italic;
+    text-shadow: 5px 6px 7px #000;
+    color: #fff;
+}
+
+.text-vertical-center h3 {
+    font-style: italic;
+    color: #fff;
+    text-shadow: 1px 1px 7px #fff;
+}
+
+.div_logo {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    background-color: #206096;
+    padding-top: 15px;
+    /*background: url(../img/menu_img.png);*/
+}
+
+.sombra_div_logo {
+    width: 100%;
+    background-color: #1f496d;
+    height: 5px;
+}
+
+.logo_home img {
+    height: 150px;
+    width: 250px;
+}
+
+.menu_home {
+    float: right;
+    margin-top: 55px;
+}
+
+.menu_home a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .menu_home {
+        display: none;
+    }
+    .logo_home {
+        text-align: center;
+    }
 }
 
 /* Custom Button Styles */
@@ -155,7 +210,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 550px;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/back.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -187,6 +242,10 @@ hr.small {
 
 .service-item a i {
     display: inline-block;
+}
+
+.service-item i {
+    font-size: 100px;
 }
 
 .service-item img{

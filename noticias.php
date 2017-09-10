@@ -58,9 +58,6 @@ endif;
                             <div class="img_logo">
                             	<img src="<?=get_template_directory_uri()?>/img/G1_logo.svg_.png">
                         	</div>
-                            <h4>
-                                <!-- <strong>G1</strong> -->
-                            </h4>
 
                             <?php foreach ( $rss_items as $item ) : ?>
                             <a class="noticias_link" target="_blank" href="<?php echo esc_url( $item->get_permalink() ); ?>" title="<?php printf( __( 'Postado %s'), $item->get_date('j F Y | g:i a') ); ?>">
