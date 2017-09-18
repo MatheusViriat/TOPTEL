@@ -24,12 +24,27 @@ body {
 }
 
 .carousel-caption h1 {
-  text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+  /*text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;*/
   font-size: 45px;
 }
 
+.carousel-caption .first {
+  color: #1e344c;
+  font-weight: bold;
+}
+
+.carousel-caption .second {
+  color: #fff;
+  font-weight: bold;
+}
+
+.carousel-caption .third {
+  color: #969287;
+  font-weight: bold;
+}
+
 .carousel-caption p {
-  text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+  /*text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;*/
   font-size: 25px;
 }
 

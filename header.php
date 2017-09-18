@@ -6,11 +6,15 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="">
-	    <meta name="author" content="">
+			<meta name="robots" content="index, follow">
+
+			<meta property="og:site_name" content="Top-Tel - Soluções Inteligentes">
+			<meta property="og:type" content="website">
+
 	    <?php wp_head(); ?>
 
-	    <title>TopTel</title>
+	    <title>Top-Tel - Soluções Inteligentes</title>
+			<meta name="description" content="Serviços inteligentes e de qualidade, envolvendo Redes, Hardware, Cabeamento estruturado, PABX Digital, IP, Interfonia digital e coletiva, Circuito fechado de TV e Alarmes. Temos também notícias sobre tecnologia." />
 
 	    <?php $home = get_template_directory_uri();?>
 
@@ -33,7 +37,7 @@
 	    <script src="<?=$home?>/js/bootstrap.min.js"></script>
 
 	    <!-- <script src="<?=$home?>/js/jquery-3.2.1.slim.min.js"></script> -->
-	    
+
 		    <!-- Custom Theme JavaScript -->
 		<script>
 		// Closes the sidebar menu
@@ -107,7 +111,7 @@
 		    // Enable map zooming with mouse scroll when the user clicks the map
 		$('.map').on('click', onMapClickHandler);
 		</script>
-		
+
 	    <!-- Plugin CSS -->
 	    <!-- <link href="<?=$home?>/vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
@@ -126,12 +130,12 @@
 	<div class="div_logo">
 	    <div class="logo_home">
 	        <img src="<?=$home?>/img/logo_top_tel2.png">
-	        <div class="menu_home">
+	        <!-- <div class="menu_home">
 	            <a href="">Início</a>
 	            <a href="">Serviços</a>
 	            <a href="">Produtos</a>
 	            <a href="">Fale Conosco</a>
-	        </div>
+	        </div> -->
 	    </div>
 	</div>
 

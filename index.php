@@ -1,11 +1,11 @@
-<?php 
+<?php
 include("header.php");
 include("carousel.php"); ?>
 
     <div><?php include("noticias.php"); ?></div>
 
-    <?php 
-    include("servicos.php");
+    <?php
+    // include("servicos.php");
     include("about.php");
     //include ("produtos.php");
     //include ("clientes.php"); ?>

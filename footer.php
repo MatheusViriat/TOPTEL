@@ -12,7 +12,7 @@
                         </li>
                     </ul>
                     <br>
-                    <ul class="list-inline">
+                    <!-- <ul class="list-inline">
                         <li>
                             <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                         </li>
@@ -22,9 +22,9 @@
                         <li>
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
-                    </ul>
+                    </ul> -->
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Site criado em 2017</p>
+                    <p class="text-muted">Site criado em 2017</p>
                 </div>
             </div>
         </div>
