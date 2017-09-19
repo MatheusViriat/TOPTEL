@@ -49,19 +49,33 @@ body {
     margin-bottom: -10px;
     background-color: #206096;
     padding-top: 15px;
-    text-align: center;
+    text-align: right;
+    padding-bottom: 10px;
     /*background: url(../img/menu_img.png);*/
 }
 
 .sombra_div_logo {
     width: 100%;
-    background-color: #1f496d;
-    height: 5px;
+    background-color: #fff;
+    color: #585555;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.info_before{
+    width: 100%;
+    background-color: #fff;
+    color: #585555;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -40px;
 }
 
 .logo_home img {
-    height: 150px;
-    width: 250px;
+    height: 120px;
+    width: 220px;
 }
 
 .menu_home {

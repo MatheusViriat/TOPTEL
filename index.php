@@ -2,6 +2,10 @@
 include("header.php");
 include("carousel.php"); ?>
 
+    <p class="info_before">Redução de custos em comunicações sem perda de produtividade, adequadas para os diversos segmentos (Comércios, Indústrias, Escritórios em geral, Consultórios Médicos, Residências, Escolas, Centro logístico, Distribuidores e Setores Públicos.)</p>
+
+    <hr>
+
     <div><?php include("noticias.php"); ?></div>
 
     <?php

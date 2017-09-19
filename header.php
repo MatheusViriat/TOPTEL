@@ -129,7 +129,7 @@
 
 	<div class="div_logo">
 	    <div class="logo_home">
-	        <img src="<?=$home?>/img/logo_top_tel2.png">
+	        <img src="<?=$home?>/img/logo_top_tel.png">
 	        <!-- <div class="menu_home">
 	            <a href="">Início</a>
 	            <a href="">Serviços</a>
@@ -139,6 +139,6 @@
 	    </div>
 	</div>
 
-	<div class="sombra_div_logo"></div>
+	<p class="sombra_div_logo">Há mais de 20 anos oferecemos soluções que facilitam e agilizam proporcionando bem estar e segurança com a melhor relação custo/benefício.</p>
 
 <body>

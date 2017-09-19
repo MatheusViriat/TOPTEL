@@ -15,6 +15,11 @@ body {
 .carousel {
   margin-bottom: 4rem;
   /*margin-top: -30px;*/
+  height: 500px;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -29,23 +34,52 @@ body {
 }
 
 .carousel-caption .first {
-  color: #1e344c;
+  text-shadow: #000 0px 1px 4px;
+  color: #7fabbe;
   font-weight: bold;
 }
 
 .carousel-caption .second {
   color: #fff;
+  text-shadow: #000 0px 1px 4px;
   font-weight: bold;
 }
 
 .carousel-caption .third {
+  color: #dce7f4;
+  font-weight: bold;
+  text-shadow: #000 0px 1px 4px;
+}
+
+.carousel-caption .four {
   color: #969287;
   font-weight: bold;
+  text-shadow: #000 0px 1px 4px;
+}
+
+.carousel-caption .five {
+  color: #e5a45a;
+  font-weight: bold;
+  text-shadow: #000 0px 1px 4px;
 }
 
 .carousel-caption p {
   /*text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;*/
   font-size: 25px;
+}
+
+.produtos_carousel{
+  margin-top: 30px;
+}
+
+.produtos_carousel img{
+  display: inline-block;
+}
+
+.produtos_carousel div{
+  background-color: #fff;
+  padding: 15px;
+  height: 80px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -113,6 +147,10 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+  }
+
+  .produtos_carousel {
+    display: none;
   }
 }
 
